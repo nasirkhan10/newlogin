@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	font-family: 'Roboto', sans-serif;
+	background-image: url(images/background4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.main-container{
+
+	width: 24%;
+	margin: 10% auto;
+}
+
+
+.container{
+
+	background-color: #fff;
+    width: 383px;
+    height: 303px;
+    padding: 35px 21px;
+    border: 3px solid #cccccc;
+    border-radius: 14px;
+}
+
+.form-control{
+    width: 79%;
+    height: 37px;
+    margin-bottom: 11px;
+    padding: 0px 0px 0px 78px;
+    border-radius: 5px;
+
+}
+.button{
+
+	border:none;
+    background: #0073e6;
+    color: #fff;
+    padding: 8px 158px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 23px;
+}
+
+.button:hover{
+	cursor:pointer;
+	background-color: #0059b3;
+
+}
+
+.reset-button {
+
+	margin-top: 15px;
+    text-align: center;
+    padding: 4px;
+    font-size: 20px;
+    
+}
+
+.reset-button a{
+	text-decoration: none;
+}
+
+.reset-button:hover{
+	text-decoration: underline;
+}
+
+.create-button{
+
+	border: none;
+    background: #00b300;
+    color: #fff;
+    margin: 35px auto;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    width: 71%;
+    border-radius: 5px;
+}
+
+.create-button a{
+	text-align: center;
+    text-decoration: none;
+
+}
+
+.create-button:hover{
+	cursor: pointer;
+	background-color:  #009900;
+}
